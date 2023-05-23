@@ -1,0 +1,29 @@
+.TH mini.conf 5
+.SH NAME
+mini.conf - mini package manager configuration file
+.SH SYNOPSIS
+/etc/mini.conf
+.SH DESCRIPTION
+mini, using own scripts, will attempt to read mini.conf each time it
+is invoked. This configuration file works like shell script.
+.SH OPTIONS
+.TP
+.B CC
+Compiler used for the building.
+.TP
+.B PREFIX
+Prefix of path used for installation.
+.TP
+.B CPPFLAGS
+Flags used for the C preprocesor.
+.TP
+.B CLAGS
+FLags used for the C compiler.
+.TP
+.B LDFLAGS
+Flags used for the linker.
+.TP
+.B MAKEFLAGS
+Flags used for the make.
+.SH AUTOR
+fenze <contact@fenze.dev>

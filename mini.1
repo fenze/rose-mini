@@ -1,0 +1,29 @@
+.TH mini 1
+.SH NAME
+	mini - package manager utility
+.SH SYNOPSIS
+.B mini
+<\fIoperations\fR> [\fIoptions\fR] [\fItargets\fR]
+.SH DESCRIPTION
+mini is a tool for installing, removing, and updating packages.
+.SH OPERATIONS
+.TP
+.B \-h
+Display syntax for the given operation. If no operation was supplied,
+then the general syntax is shown.
+.TP
+.B \-v
+Display current mini version.
+.TP
+.B \-i <\fIpackage...\fR>
+Download and install the specified packages.
+.TP
+.B \-r <\fIpackage...\fR>
+Uninstall the specified packages.
+.TP
+.B \-u <\fIpackage...\fR>
+Update the specified packages.
+.SH CONFIGURATION
+See mini.conf(5) for more details on configurating mini using \fImini.conf\fR file.
+.SH AUTHOR
+fenze <contact@fenze.dev>
